@@ -1,0 +1,28 @@
+
+form{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    width: 100%;
+    gap: 35px;
+}
+
+.OTP-box input{    
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 2rem;
+    border: 1px solid var(--blue-color);
+}
+
+.achievement-box .success{
+    width: 90%;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.achievement-box .OTP-time{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}

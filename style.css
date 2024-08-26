@@ -1,0 +1,1142 @@
+:root{
+    --blue-color: #178bff;
+    --lightblue-color: #9acafad7;
+    --extremeLightBlue: #d1e8ffd7;
+    --orange-color:#ff7b00;
+    --body-color: #f0ebeb92;
+    --dark-brown:#d7d1d1;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* HEADER START */
+.container{
+    display: flex;
+    padding: 2rem 5%;
+    justify-content: center;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo .menu-icon{
+    display: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h2{
+    font-size: 3rem;
+}
+.orange{
+    color: var(--orange-color);
+}
+
+.sup{
+    font-size: 8px;
+}
+
+.vertical-line{
+    height: 40px;
+    width: 2.5px;
+    background-color: var(--orange-color);
+    margin-left: 25px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    margin-right: 2rem;
+}
+
+.links li{
+    margin: 0 10px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    border-bottom: 2px solid transparent;
+}
+
+.links li:hover{
+    border-bottom: 2px solid var(--blue-color);
+}
+
+.blue-btn{
+    padding: 10px;
+    width: 5rem;
+    border: 1.5px solid var(--blue-color);
+    background-color: var(--blue-color);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.white-btn{
+    padding: 10px;
+    width: 5rem;
+    border: 1.5px solid var(--blue-color);
+    background-color: white;
+    color: var(--blue-color);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login{
+    margin-right: 10px;
+}
+
+/* HEADER END */
+
+
+/* SIDEBAR */
+.side-bar{
+    display: none;
+}
+
+/* MAIN END */
+.section{
+    flex-direction: column;
+    justify-content: start;
+    padding: 0 5%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4.5rem;
+}
+
+main h1{ 
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    margin-bottom: 10px;
+}
+
+main h1 span{
+    color: var(--blue-color);
+}
+
+main p{
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.features{
+    width: 8rem;
+    margin-left: 25px;
+}
+
+main img{
+    width: 35rem;
+}
+
+.explores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explores p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.blue{
+    width: 170px;
+    height: 2px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+}
+
+.lightblue{
+    width: 170px;
+    height: 2px;
+    background-color: var(--lightblue-color);
+    border-radius: 10px;
+}
+
+.explore{
+    display: flex;
+    align-items: center;
+}
+
+.exp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.exp img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+/* MAIN END */
+
+
+/*SECTION2 START */
+.two{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.two h2{
+    font-weight: bold;
+    font-size: 27px;
+    margin: 2rem 0;
+}
+.boxes{
+    display: flex;
+    margin-top: 8px;
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+    gap: 2rem;
+}
+
+.box{
+    flex-basis: 25%;
+    /* width: 270px; */
+    height: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.box i{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.box h3{
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 13px;
+}
+
+.box a{
+    align-self: flex-end;
+    margin-top: 10px;
+    color: var(--orange-color);
+    font-size: 13px;
+}
+
+.box a .fa-solid{
+    font-size: 8px;
+    color: black;
+    margin-left: 3px;
+    opacity: 70%;
+}
+
+.box:nth-child(1){
+    background-color:rgba(67, 147, 67, 0.337);
+}
+
+.box:nth-child(2){
+    background-color: rgb(182, 210, 228);
+}
+
+.box:nth-child(3){
+    background-color: var(--dark-brown);
+}
+
+.box:nth-child(4){
+    background-color:rgb(255, 199, 135);
+}
+.up-box{
+    align-self: start;
+}
+.down-box{
+    align-self: end;
+}
+
+/* COMMENT SECTION */
+.comments{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* width: 250px; */
+    flex-basis: 25%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 4rem 35px;
+    box-shadow: 5px 5px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+.client:nth-child(2){
+    background-color: rgba(0, 100, 0, 0.431);
+}
+
+.client:nth-child(4){
+    background-color: rgba(182, 210, 228, 0.594);
+    position: relative;
+}
+.arrow-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--blue-color);
+    position: absolute;
+    right: -7%;
+    top: 45%;
+}
+.right-arrow{
+    color: white;
+}
+.client img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.client h3{
+    margin: 3px 0;
+}
+
+.client .desc{
+    font-size: 13px;
+    opacity: 80%;
+    margin-bottom: 10px;
+}
+
+.client .comment{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+
+.client .comment .q{
+    color: var(--blue-color);
+}
+
+.client .rating{
+    color: var(--orange-color);
+}
+
+
+/* circle */
+.circle{
+    display: flex;
+    margin: 3rem 0;
+}
+.circle>*{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--lightblue-color);
+    margin: 0 10px;
+}
+.circle .blue-circle{
+    background-color: var(--blue-color);
+}
+
+
+/* Signup letter */
+.letter-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.letter-box .desc{
+    width: 30rem;
+    margin-right: 3rem;
+}
+.letter-box .desc h2{
+    color: var(--blue-color);
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.letter-box p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.two form{
+    background-color: var(--dark-brown);
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.two form input{
+    width: 20rem;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+}
+
+.two form:hover{
+    background-color: var(--lightblue-color);
+}
+.two form:active{
+    background-color: var(--lightblue-color);
+}
+
+.two form input::placeholder{
+   font-size: 12px;
+   font-weight: bold;
+}
+
+.two form .submit{
+    width: 6rem;
+    border-radius: 0;
+    background-color: var(--blue-color);
+    cursor: pointer;
+}
+.letter-box img{
+    margin-left: 3rem;
+    width: 30rem;
+}
+/*SECTION2 END */
+
+
+/* FOOTER START */
+.footer{
+    background-color:var(--dark-brown);
+    padding: 0 5%;
+    padding-top: 1rem;
+}
+.footer>*{
+    flex-basis: 40%;
+}
+.footer ul li{
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.footer p{
+    font-size: 12px;
+}
+
+.footer h3{
+    margin-bottom: 15px;
+}
+
+.footer div:nth-child(1) h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer div:nth-child(1) p{
+    margin-bottom: 40px;
+}
+
+.footer div:nth-child(1) .fa-lock{
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+.footer div:nth-child(2){
+    align-self: flex-end;
+    margin-left: 100px;
+    padding-bottom: 35px;
+    
+}
+.footer div:nth-child(2) i{
+    font-size: 25px;
+    margin-left:3px;
+}
+.footer div:nth-child(5) li{
+    display: flex;
+    align-items: center;
+}
+
+.footer div:nth-child(5) li i{
+    padding: 10px;
+    font-size: 20px;
+}
+/* FOOTER END */
+
+
+
+
+/* -------------------------CSS FOR SIGNIN PAGE----------------------------- */
+.signup-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7%;
+}
+
+.signup{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left:3%;
+    justify-content: center;
+}
+
+
+.signup h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.signup .acc{
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.signup .small{
+    font-size: 15px;
+    margin-bottom: 5rem;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+}   
+
+.signup-form div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.signup input{
+    width: 85%;
+    background-color: transparent;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+.signup-form .password-conf input{
+    width: 60%;
+}
+.signup input::placeholder{
+    padding-left: 30px;
+}
+
+.signup label{
+    font-size: 16px;
+}
+
+.signup .account{
+    background-color: var(--blue-color);
+    height: 45px;
+    width: 100%;
+}
+
+.signup .account:active{
+    background-color: var(--lightblue-color);
+    width: 100%;
+}
+
+.signup .google-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.signup .google-signup:active{
+    background-color: var(--blue-color);
+    color: white;
+}
+
+.signup .google-signup img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.signup .google-signup p{
+    font-size: 13px;
+    color: black;
+}
+.signup hr{
+    margin-bottom: 2rem;
+}
+.signup hr:nth-of-type(3),.signup hr:nth-of-type(4){
+    margin: 0;
+}
+
+.password-desc{
+    margin-bottom: 2rem;
+    font-size: 11px;
+    opacity: 50%;
+}
+
+.checkbox{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkbox input{
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* CHECK BOTTOM FOR .check STYLING */
+.checkbox .check{
+    border: 1px solid var(--blue-color);
+    padding-left: 0px;
+    width: 13px;
+    height: 13px;
+}
+
+.checkbox .check:after{
+    font-size: 10px;
+}
+
+.checkbox p{
+    font-size: 13px;
+}
+.blue-link{
+    color: var(--blue-color);
+}
+.question{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 2.1rem;
+}
+.question a {
+    color: var(--orange-color);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 8rem;
+    width: 120%;
+}
+
+.loginFooter{
+    width: 100%;
+    margin-top: 12rem;
+}
+
+
+.footer-section div{
+    display: flex;
+    align-items: center;
+}
+.footer-section div p{
+    margin-left: 5px;
+}
+
+
+.img-container{
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47%;
+    height: 97vh;
+    background-color: var(--extremeLightBlue);
+    border-top-left-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+}
+
+.img-container img{
+    width: 30rem;
+}
+
+
+
+
+
+/* -------------------------CSS FOR GOOGLE SIGNUP PAGE----------------------------- */
+.signup-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    width: 120%;
+    height: 450px;
+}
+.signup-box hr{
+    border: 0;
+    width: 100%;
+    height: 0.5px;
+    background-color: #ccc;
+    margin: 5px 0px;
+}
+
+.signup-box .google-signup{
+    margin: 0px 0px;
+    padding-bottom: 0;
+    border: 0;
+    background-color: transparent;
+    justify-content: start;
+}
+
+.signup-box .div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+}
+
+.chooseAcc{
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.signup-box p{
+    font-size: 11px;
+}
+
+.para{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+.person div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--blue-color);
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.person div:nth-of-type(1) a{
+    font-size: 15px;
+    color: white;
+}
+.person:nth-of-type(3) div{
+    visibility: hidden;
+}
+
+.person:nth-of-type(3) p{
+    font-weight: 600;
+}
+.person h3{
+    font-size: 13px;
+}
+
+.signup-box .info{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 3rem;
+}
+
+.terms select{
+    font-size: 11px;
+    border: none;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    outline: none;
+    border-radius: 2px;
+}
+
+.terms ul{
+    display: flex;
+    font-size: 10px;
+}
+
+.terms ul li{
+    margin-left: 20px;
+}
+
+
+
+
+/* -------------------------CSS FOR GOOGLE SIGNUP PAGE 2----------------------------- */
+.signup-c{
+    margin-top: 1.5rem;
+}
+
+.s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* FIXME: PRINCE FIND A WAY TO CHANGE THIS SETTING */
+.s div:nth-of-type(1){
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--blue-color);
+    text-align: center;
+    color: white;
+}
+
+.signup-box .specific-person{
+    margin-bottom: 1.5rem;
+}
+.cancel-confirm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 8rem;
+}
+
+
+
+
+
+/* -------------------------CSS FOR LOGIN PAGE----------------------------- */
+.left{
+    border-radius: 0;
+    border-top-right-radius: 7rem;
+    border-bottom-right-radius: 7rem;
+}
+
+.loginn{
+    width: 80%;
+}
+
+.loginn .signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    height: 20rem;
+}
+
+.login-container .signup hr{
+    margin-bottom: 3rem;
+}
+
+.login-container .signup hr:nth-of-type(2){
+    margin-bottom: 5px;
+}
+.forgetPass{
+    font-size: 12px;
+    align-self: end;
+    margin-bottom: 20px;
+}
+.loginn .first{
+    margin-bottom: 0rem;
+}
+
+
+
+/* -------------------------CSS FOR FORGET PAGE----------------------------- */
+
+.input input{
+    width: 68%;
+}
+
+.input .increase-width{
+    width: 56%;
+}
+
+.passForget .signup hr{
+    margin-bottom: 0px;
+}
+
+.passForget .signup hr:nth-of-type(3){
+    margin-bottom: 1rem;
+}
+
+
+
+/* -------------------------CSS FOR FORGETLOGINDETAILS PAGE----------------------------- */
+.forget-details .login{
+    height: 10rem;
+}
+
+
+
+/* -------------------------CSS FOR ACCOUNT CREATED SUCCESSFUL PAGE----------------------------- */
+.signup-sec .signup{
+    padding-top: 2rem;
+    padding-left: 0px;
+    /* margin-right: 3rem; */
+}
+.achievement-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 21rem; */
+    height: 100%;
+}
+
+.achievement-box h3{
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+.achievement-box p{
+    font-size: 13px;
+    margin-bottom: 5rem;
+}
+
+.blue-tick{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--blue-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+.blue-tick i{
+    color: white;
+    font-size: 4rem;
+}
+
+.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.success button{
+    width:110%;
+}
+
+.success button a{
+    color: white;
+}
+
+
+
+
+/* -------------------------CSS FOR SUBSCRIPTION PAGE----------------------------- */
+
+.subscribe{
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 100vh;
+    width: 100%;
+}
+
+.subscribe .footer-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.subscribe h2{
+    align-self: start;
+}
+
+.sub{
+    height: 80%;
+}
+
+.sub-cont{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    padding: 20px;
+    background-color: var(--extremeLightBlue);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sub-cont p{
+    font-size: 12px;
+}
+
+.sub-cont h3{
+    margin-bottom: 10px;
+}
+
+.sub-cont a{
+    align-self: center;
+}
+
+.sub-cont .sub-btn{
+    width: 100%;
+    font-size: 11px;
+    margin: 2.5rem 0;
+    cursor: pointer;
+}
+
+.sub-cont div:nth-of-type(2){
+    margin-bottom: 2rem;
+}
+
+.sub-cont .blue-link{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.sub-cont div:nth-of-type(1) h3{
+    font-size: 17px;
+}
+
+
+
+
+/* -------------------------CSS FOR I'M NOT A ROBOT PAGE----------------------------- */
+.NAR-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    margin-top:2rem;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 70%;
+    height: 10%;
+}
+
+/* AMAZING CHECKBOX WITH STYLING */
+.check-box{
+    display: flex;
+    align-items: center;
+}
+.check{
+    margin-right: 10px;
+    margin-left: 20px;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 1px;
+    cursor: pointer;
+    border: 1px solid var(--blue-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.check:after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    font-size: 13px;
+    color: white;
+    display: none;
+}
+
+.check:checked{
+    background-color: var(--blue-color);
+}
+
+.check:checked::after{
+    display: block;
+}
+
+.CAPTCHA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-cont .NAR-box div:nth-of-type(2){
+    margin-bottom: 0px;
+}
+
+
+.CAPTCHA p{
+    font-size: 8px;
+}
+
+.CAPTCHA i{
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
+.NAR .sub-cont a{
+    align-self: flex-start;
+    width: 40%;
+}
+
+.NAR .sub-cont .sub-btn{
+    margin: 0;
+    margin-top: 5px;
+    border: 0;
+}
+
+.NAR .sub-cont .sub-btn:active{
+    background-color: var(--lightblue-color);
+}
+
+
+/* -------------------------CSS FOR SUBSCRIPTION SUCCESSFUL PAGE----------------------------- */
+.sub-success .achievement-box .spam-message {
+    margin-bottom: 1.5rem;
+}
