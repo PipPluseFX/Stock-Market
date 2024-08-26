@@ -1,0 +1,134 @@
+.container{
+    display: flex;
+    gap: 6rem;
+    padding: 2% 5% 0px 5%;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    flex-basis: 35%;
+}
+
+.contact-box .logo{
+    align-self: center;
+    margin-bottom: 2.5rem;
+}
+
+.contact-box p{
+    margin-bottom: 15px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2{
+    font-size: 20px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.contact-form h3{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.contact-form h3 a{
+    display: inline;
+    font-weight: lighter;
+    margin-left: 62px;
+}
+.contact-form h3 p{
+    display: inline;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.input label{
+    font-size: 13px;
+    font-weight: 600;
+}
+.input input{
+    width: 75%;
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+}
+
+form textarea {
+    outline: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 1rem;
+    height: 120px;
+}
+
+.contact-form .btn{
+    align-self: flex-end;
+}
+
+.contact-form .blue-btn{
+    width: 100%;
+    font-size: 10px;
+}
+
+
+
+.location{
+    flex-basis: 45%;
+    height: 500px;
+    padding-top: 10%;
+}
+
+.location .address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.location h4{
+    margin-bottom: 10px;
+}
+.location p{
+    margin-bottom: 5px;
+}
+
+.location .box{
+    width: 100%;
+    margin-top: 3rem;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+    background-color: transparent;
+}
+
+
+.footer-section{
+    padding: 50px 5%;
+    padding-bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
+}
+
+
+
+
+/* ------------------------------MESSAGE SUCCESSFUL PAGE-------------------------------------------- */
+.signup-sec .signup{
+    padding: 0rem;
+}
+
+.msg-successful{
+    display: flex;
+    gap: 6rem;
+    padding: 2% 5% 0px 5%;
+}

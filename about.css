@@ -1,0 +1,117 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    padding-bottom: 1.5rem;
+}
+
+
+.about-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    padding: 0 5%;
+}
+
+.about-container h2{
+    font-size: 30px;
+}
+
+.about-container .selectPlan{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.about-plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.plan{
+    padding: 3.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    width: 23%;
+    height: 65svh;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.plan:hover{
+    border: 1px solid var(--blue-color);
+}
+
+
+.plan h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.plan h1{
+    margin-top: 1rem;
+}
+
+.plan sup{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.plan p{
+    font-size: 12px;
+}
+
+.plan .days-plan{
+    margin-bottom: 2rem;
+}
+
+.plan li{
+    display: flex;
+    align-items: start;
+}
+
+.plan i{
+    margin-right: 10px;
+}
+
+.plan p{
+    margin-bottom: 10px;
+}
+
+.plan h5{
+    margin-bottom: 5px;
+}
+.plan a{
+    width: 70%;
+    align-self: center;
+    font-size: 11px;
+}
+
+.plan button{
+    width: 100%;
+    margin-top: auto;
+}
+
+.personal-plan a{
+    margin-top: 3.5rem;
+}
+
+.pro-plan{
+    background-color: var(--extremeLightBlue);
+}
+
+.pro-plan button{
+    margin-top: 2rem;
+}
+
+.business-plan button{
+    margin-top: .5rem;
+}

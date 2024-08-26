@@ -1,0 +1,269 @@
+.container{
+    padding: 0 5%;
+}
+
+main{
+    margin-bottom: .5rem;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+}
+
+.payment h1{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.payment p{
+    margin-bottom: 3px;
+}
+
+.payment h2{
+    align-self: start;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.payment h2 span{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.payment .free{
+    align-self: start;
+    margin-left: 15rem;
+}
+
+.container .pay-div{
+    display: flex;
+    gap: 5rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.payment-div{
+    flex-basis: 62%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header{
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h2{
+    margin-right: 9rem;
+    margin-bottom: .5rem;
+    font-size: 20px;
+    color: green;
+}
+
+.header .plan{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+.header .plan .annual{
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    padding: 5px;
+    width: 110px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.header .plan .annual p{
+    margin-left: 10px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.header .plan .annual div{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.line{
+    border: 0;
+    width: 100%;
+    height: .5px;
+    background-color: var(--blue-color);
+    margin-top: 15px;
+}
+.payment-input{
+    display: flex;
+    gap: 30px;
+    margin-top: 2rem;
+}
+
+.payment-input div{
+    flex-basis: 50%;
+}
+
+.payment-input div .input{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+.payment-input div input{
+    flex-basis: 70%;
+    height: 2rem;
+    outline: 0;
+    padding-left: 10px;
+    border: 1px solid var(--blue-color);
+    border-radius: 3px;
+}
+
+.payment-input .last{
+    flex-basis: 40%;
+}
+
+main p{
+    margin-bottom: 0;
+}
+main .payment-input p{
+    flex-basis: 27%;
+    margin-right: 2rem;
+}
+
+.img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.img img{
+    width: 70px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.img .maestro{
+    width: 80px;
+    height: 45px;
+}
+
+.payment-input .cvv{
+    flex-basis: 15%;
+}
+
+.payment-input  .orange{
+    margin-left: 20px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.check-box{
+    display: flex;
+    align-items: center;
+}
+
+
+.blue-btn{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+}
+.blue-btn:active{
+    border:  1px solid var(--lightblue-color);
+    background-color: var(--lightblue-color);
+}
+
+
+
+
+
+
+.logo-div{
+    flex-basis: 25%;
+    height: 70vh;
+}
+
+.logo-div button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 3.2rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.logo-div .google-pay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    height: 63.33px;
+}
+
+.google{
+    width:  80px;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+.logo-div .Venmo{
+    font-size: 1.8rem;
+    background-color: #628ab3d7;
+    border: 1px solid #628ab3d7;
+    height: 63.33px;
+}
+
+.logo-div .paypal-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid var(--blue-color);
+    height: 63.33px;
+}
+
+.paypal{
+    width:  120px;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+.green-border{
+    border: 2px solid green;
+    margin-top: 3rem;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.green-border p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+
+
+.footer-section{
+    padding: 10px 5%;
+}
+
+.payment-footer{
+    width: 100%;
+}

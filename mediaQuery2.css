@@ -1,0 +1,596 @@
+
+@media (max-width:1480px) {
+/* MEDIA QUERY FOR ABOUT.HTML */
+    .about-container {
+        margin-bottom: 0px;
+        height: 100%;
+    }
+
+    .about-plans {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 120%;
+    }
+
+    .plan {
+        flex-basis: 25%;
+        height: 520px;
+    }
+
+    .plan button {
+        width: 110%;
+        margin-left: -5px;
+    }
+
+
+    /* MEDIA QUERY FOR PAYMENT.HTML */
+    .payment {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .payment h1 {
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .header {
+        align-self: flex-end;
+        display: flex;
+        justify-content: space-between;
+        height: 10%;
+        /* margin-top: 3rem; */
+        width: 100%;
+    }
+
+    .green-border {
+        padding: 10px;
+    }
+
+
+
+
+/* MEDIA QUERY FOR CONTACT.HTML */
+    .contact {
+        display: flex;
+        gap: 3rem;
+        padding: 2% 5% 0px 5%;
+        padding-top: 6rem;
+        height: 80vh;
+    }
+
+    .location {
+        width: 55%;
+    }
+
+    .msg-successful {
+        display: flex;
+        gap: .5rem;
+        padding: 10% 5% 0px 5%;
+        height: 82vh;
+    }
+}
+@media (max-width:1100px) {
+/* MEDIA QUERY FOR ABOUT.HTML */
+
+    .about-container {
+        margin-bottom: 0px;
+        height: 100%;
+    }
+
+    .about-plans {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 120%;
+    }
+
+    .plan {
+        flex-basis: 28%;
+        height: 520px;
+    }
+
+    .plan button {
+        width: 110%;
+        margin-left: -5px;
+        }
+    
+
+
+
+/* SIDEBAR MEDIA QUERY CSS */
+.side-bar{
+    width: 25rem;
+    height: 100vh;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding: 1rem 0%;
+    overflow: clip;
+    transform: translate(-100%);
+    transition: 1s;
+}
+
+.show-sideBar{
+    transform: translate(0);
+}
+
+.sideBar-top{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.close-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3rem;
+    padding: 0 5%;
+}
+
+.close-icon h2{
+    font-size: 2rem;
+}
+
+.closeIcon{
+    transform: scale(1.5);
+    transition: .5s;
+    color: var(--blue-color);
+}
+
+.closeIcon:hover{
+    transform: scale(1.2) rotate(45deg);
+}
+
+.side-bar h1 span{
+    color:blue;
+}
+
+.sideBar-top ul{
+    list-style: none;
+}
+
+.sideBar-top ul li{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding-left: 5%;
+    width: 100vw;
+}
+
+.sideBar-top ul li:hover{
+    background-color: rgba(94, 146, 250, 0.399);
+    color: rgba(0, 0, 255, 0.895);
+    width: 100vw;
+}
+
+.sideBar-Bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    margin-bottom: 1.5rem;
+}
+
+.sideBar-Bottom i{
+    font-size: 1.6rem;
+    margin: 0 8px;
+}
+
+
+
+
+
+
+/* MEDIA QUERY FOR PAYMENT.HTML */
+    .payment {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .payment h1 {
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .header {
+        align-self: flex-end;
+        display: flex;
+        justify-content: space-between;
+        height: 10%;
+        /* margin-top: 3rem; */
+        width: 100%;
+    }
+
+    .green-border {
+        padding: 10px;
+    }
+
+
+    .header .plan .annual div {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+
+
+
+/* MEDIA QUERY FOR CONTACT.HTML */
+    .contact {
+        display: flex;
+        gap: 3rem;
+        padding: 2% 5% 0px 5%;
+        padding-top: 6rem;
+        height: 80vh;
+    }
+
+    .location {
+        width: 55%;
+    }
+
+    .msg-successful {
+        display: flex;
+        gap: .5rem;
+        padding: 10% 5% 0px 5%;
+        height: 82vh;
+    }
+
+}
+
+        
+    
+@media (max-width:900px){
+    .payment{
+        margin-top: 0;
+    }
+    
+    .header {
+        margin-top: 1rem;
+        height: 50px;
+    }
+
+    .about-plans {
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+
+    .plan {
+        flex-basis: 40%;
+        margin-bottom: 10px;
+        padding: 2.6rem;
+    }
+
+    .about-container{
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .green-border {
+        display: none;
+    }
+
+    .container .pay-div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+
+/* MEDIA QUERY FOR PAYMENT.HTML */
+
+    .payment-div {
+        flex-basis: 100%;
+    }
+
+    .payment h2 {
+        margin-top: 15px;
+    }
+
+    .payment h1 {
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .payment p {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .payment-input .cvv, .payment-input  .orange,  main .payment-input .cvvcv {
+        margin-bottom: 0rem;
+        margin-top: 3.58rem;
+    }
+
+    .payment-input  .orange{
+        width: 100%;
+    }
+
+    .payment-input div .input {
+        margin-bottom: 30px;
+    }
+
+    .logo-div {
+        flex-basis: 100%;
+        height: 70vh;
+    }
+
+    .logo-div {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        margin-top: 20px;
+        /* height: 70vh; */
+    }
+
+
+
+
+    /* MEDIA QUERY FOR CONTACT.HTML */
+    .contact-box p {
+        font-size: 1.3rem;
+    }
+    
+    .contact-box .logo {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding-top: 2rem;
+        height: 82vh;
+    }
+
+    .signup-form {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 123%;
+        margin-left: -10%;
+    }
+
+    .location {
+        width: 100%;
+    }
+
+    .location .box{
+        height: 300px;
+    }
+
+
+
+/* MESSAGE SUCCESSFUL - CSS */
+    .signup h2 {
+        margin-top: 4rem;
+    }
+    .msg-successful .achievement-box h3,.achievement-box p {
+        text-align: center;
+    }
+
+    .msg-successful .achievement-box {
+        width: 80%;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .success button {
+        width: 100%;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .footer-section {
+        padding: 50px 5%;
+        padding-bottom: 0;
+        margin-top: auto;
+    }
+}
+    
+    
+    
+@media (max-width:570px){
+    .logo h2 {
+        font-size: 1.3rem;
+    }
+
+    .links{
+        justify-content: end;
+    }
+    .header {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .about-plans {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+    } 
+
+    .about-container{
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .show-btn{
+        display: inline;
+    }
+    .plan {
+        width: 75%;
+        margin-bottom: 10px;
+    }
+
+    .about-container .selectPlan {
+        text-align: center;
+    }
+
+
+    /* MEDIA QUERY FOR PAYMENT.HTML */
+    .payment{
+        margin-top: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .payment-div {
+        flex-basis: 100%;
+    }
+
+    .payment h1 {
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 20px;
+        font-size: 1.6rem;
+    }
+
+    .payment p {
+        margin-bottom: 5px;
+    }
+
+    .payment h2 {
+        font-size: 20px;
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .payment h2 span {
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .header .plan .annual{
+        margin-left: 20px;
+    }
+
+    .header .plan .annual {
+        padding: 4px;
+        width: 90px;
+        margin-right: 10px;
+    }
+
+    .header .plan .annual p {
+        margin-left: 3px;
+    }
+
+    .header .plan .annual div {
+        width: 15px;
+        height: 15px;
+        background-color: white;
+        margin-left: 5px;
+    }
+
+
+    .payment-input {
+        display: flex;
+        gap: 30px;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    main .payment-input p {
+        flex-basis: 27%;
+        margin-right: 0.2rem;
+    }
+
+    .payment-input{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .payment-input .last {
+        flex-basis: 100%;
+    }
+
+    .last-div {
+        margin-top: -2rem;
+    }
+
+    .payment-input .cvv, .payment-input  .orange, main .payment-input .cvvcv {
+        margin-bottom: 0rem;
+        margin-top: -2rem;
+    }
+
+    
+    .payment-input div input {
+        flex-basis: 100%;
+        width: 300px;
+    }
+
+    .payment-input .cvv {
+        flex-basis: 40%;
+    }
+
+
+    .payment-input  .orange{
+        width: 100%;
+    }
+
+    .payment-input div .input {
+        margin-bottom: 30px;
+    }
+
+    .logo-div {
+        flex-basis: 100%;
+        height: 70vh;
+    }
+
+
+
+
+    .contact-form h3 p {
+        font-size: 15px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .header .plan {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: auto;
+        margin-top: 3rem;
+    }
+
+
+/* MESSAGE SUCCESSFUL - CSS */
+    .signup h2 {
+        margin-top: 4rem;
+    }
+}
